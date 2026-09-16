@@ -57,18 +57,3 @@ uvicorn backend.main:app --reload --port 8000
 Open `http://localhost:8000` in your browser.
 
 ---
-
-## Free Cloud Deployment
-
-### 1. Hugging Face Spaces (Docker SDK)
-1. Create a new Space on [Hugging Face](https://huggingface.co/spaces).
-2. Select **Docker** as the SDK.
-3. Push this repository to the Space Git remote.
-4. Add your `GEMINI_API_KEY` under **Settings > Variables and Secrets**.
-5. The application boots with HTTPS automatically, enabling full Web Speech API microphone permissions.
-
-### 2. Render.com (Web Service)
-1. Connect this GitHub repository to Render.
-2. Choose **Docker Environment**.
-3. Add Environment Variable: `GEMINI_API_KEY`.
-4. Deploy!
