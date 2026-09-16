@@ -1,0 +1,6 @@
+{
+  "name": "AI-VivaEval: Automated Viva Voce & Lab Evaluation System",
+  "description": "Automated Professor Replacement and Viva Examination System for Artificial Intelligence Practical Course (ML509PCC17) with semantic verification and adaptive voice viva.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
